@@ -20,4 +20,4 @@ def apply_twice(func, value):
     of that first call. Return the final result.
     Example: apply_twice(lambda x: x + 1, 5) -> 7
     """
-    return func(func(value))
+    return func(func(value));
